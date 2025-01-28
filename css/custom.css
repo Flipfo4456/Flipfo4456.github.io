@@ -1,0 +1,117 @@
+.bg-dark {
+    background-color: #010101 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section.header{
+    background: url('../assets/images/bg_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+section.header .header-content .container{
+    height: 90vh;
+}
+
+.head-content{
+    width: 600px;
+    color: #fff;
+}
+
+.head-content h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.head-content button{
+    background-color: #EC5B1B;
+    border: none;
+    padding: 10px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FCEBD9;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.customizable{
+    margin-top: 80px;
+    color: #EC5B1B;
+}
+
+.madeorder{
+    height: 650px;
+    background: url('../assets/images/MadeWithFish.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    font-size: 40px;
+    color: #fff;
+}
+
+.madeorder h1{
+    width: 500px;
+}
+
+.btn-download {
+/* Order Button */
+
+/*
+box-sizing: border-box;
+
+/* Auto layout *
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 23px;
+gap: 10px;
+
+position: relative;
+width: 245px;
+height: 70px;
+*/
+background: radial-gradient(114.9% 114.9% at 50.2% 50%, #F0CD1F 28.35%, #8A7612 62.93%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border: 4px solid #AC7D1A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 57px;
+
+}
+
+
+.btn-realDownload{
+    /* Download */
+
+    /*
+box-sizing: border-box;
+/* Auto layout *
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 89px;
+gap: 10px;
+
+position: relative;
+width: 302px;
+height: 66px;
+*/
+background: linear-gradient(90deg, #B66019 8.4%, #D06913 42.4%, #FF821A 69.4%);
+border: 4px solid #994E0C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 33px;
+
+}
